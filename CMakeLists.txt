@@ -42,3 +42,5 @@ add_executable(frog main.cpp
         data/UserManagementMenu.h
         core/GameManager.cpp
         core/GameManager.h)
+set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_CXX_FLAGS_DEBUG " -g -O0 -Wall")
