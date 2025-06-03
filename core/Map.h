@@ -29,6 +29,7 @@ private:
     int* R;
     int score = 0;
     int lives;
+    int livesMax;
     vector<vector<ColoredChar>> grid, g0;
     vector<PowerUp*> powerUps;
     GameStats* stats;

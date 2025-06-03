@@ -16,6 +16,7 @@ private:
     int vehicleCount;
     int obstacleCount;
     int playerLives;
+    int playerLivesMax;
     double scoreMultiplier;
     int vehicleGap;
     bool enablePowerUps;
@@ -44,6 +45,7 @@ public:
     int getVehicleCount() const;
     int getObstacleCount() const;
     int getPlayerLives() const;
+    int getPlayerLivesMax() const;
     double getScoreMultiplier() const;
     int getVehicleGap() const;
     bool getPowerUpsEnabled() const;
