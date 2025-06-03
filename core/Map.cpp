@@ -275,6 +275,12 @@ void Map::collectPowerUp(PowerUp* powerUp) {
 
     // 應用道具效果
     switch(powerUp->getType()) {
+        case PowerUp::SHIELD:
+            // 加入護盾效果的處理邏輯
+            break;
+        case PowerUp::SPEED_BOOST:
+            // 加入速度提升效果的處理邏輯
+            break;
         case PowerUp::EXTRA_LIFE:
             lives++;        // 增加生命
             break;

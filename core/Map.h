@@ -32,11 +32,11 @@ private:
     int livesMax;
     vector<vector<ColoredChar>> grid, g0;
     vector<PowerUp*> powerUps;
-    GameStats* stats;
-    EffectSystem* effects;
     GameConfig* config;
     GameColors* colors;
     GameUtils* utils;
+    GameStats* stats;
+    EffectSystem* effects;
 
     void generateRoadPattern();
     void initializeMap();
